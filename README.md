@@ -3,3 +3,13 @@ Jeopardy User Story:
     As a player, I want to track how well I am doing during the game via a point system. 
     As a player, I do not want to be forced to log-in to service.
     As a player, I would like to know how well I do against previous players
+
+    
+
+
+    ***** Links ******
+    deployment ------ http://carmen-game-1.bitballoon.com
+
+    trello board -------  https://trello.com/b/pF8XiqLw/boardgame
+    
+    wirerframes --------- see image in project folder ----
