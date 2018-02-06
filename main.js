@@ -1,8 +1,11 @@
 console.log ("i'm working")
 function pts() {
-    var questionC1 = prompt("This will be the question");
-    if (questionC1 != null) {
+    var questionC1 = prompt("____'s the way (uh huh, uh huh) I like it");
+    if (questionC1 === "That") {
         document.getElementById("answerC1").innerHTML =
-        "if right you get pts if wrong next player";
+        "correct";
+    } else{
+        document.getElementById("answerC1").innerHTML =
+        "next player";
     }
 }

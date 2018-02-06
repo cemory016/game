@@ -1,0 +1,21 @@
+Although this practice test presents only 30 categories & clues (as opposed to our usual 50 clue format), it will give you a very good idea of the pacing and difficulty level of the online test.
+
+You will have 15 seconds to respond to each clue. At the end of each 15-second interval, whatever has been typed into the screen will be captured. Do not respond in the form of a question. When the test is over you will be able to compare your responses with the correct responses.
+
+The newly redesigned test is now accessible from tablets and smart devices, but we strongly encourage users to employ desktop or laptop computers with a stable keyboard and dependable internet connection.
+--->
+
+ function createGrid(x) {
+    for (var rows = 0; rows < x; rows++) {
+        for (var columns = 0; columns < x; columns++) {
+            $("#container").append("<div class='grid'></div>");
+        };
+    };
+    $(".grid").width(960/x);
+    $(".grid").height(960/x);
+};
+
+// function that clears the grid
+function clearGrid(){
+    $(".grid").remove();
+}; 
