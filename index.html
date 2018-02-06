@@ -12,27 +12,74 @@
 <h1>Jeopardy!</h1>
 
 <body>
-   <div>
-       <ul>
-        <h3>CAT. 1</h3>
-        <li>
-            <button onclick="pts()">100</button>
-            <p id="answerC1"></p>
-        </li>
-        <li>
-            <button>200</button>
-        </li>
-        <li>
-            <button>300</button>
-        </li>
-        <li>
-            <button>400</button>
-        </li>
-        <li>
-            <button>500</button>
-        </li>
-    
-    </ul>
+   <div id="gameBoard">
+       <div id="cat1Round1">    
+           <ul><h3>CAT. 1</h3>
+                <li>
+                    <button onclick="qANDa()">100</button>
+                    <alert id="answer1"></alert>
+                </li>
+                <li>
+                    <button onclick="qANDa()">200</button>
+                    <alert id="answer2"></alert>
+                </li>
+                <li>
+                    <button onclick="pts()">300</button>
+                    <alert id="answer3"></alert>
+                <li>
+                        <button onclick="pts()">400</button>
+                        <alert id="answer44"></alert>
+                </li>
+                <li>
+                        <button onclick="pts()">500</button>
+                        <alert id="answer5"></alert>
+                </li>
+            </ul>
+        </div>
+    <div id="cat2Round1">
+        <ul><h3>CAT. 2</h3>
+            <li>
+                    <button onclick="pts()">100</button>
+                    <alert id="answerC2R1"></alert>
+                </li>
+                <li>
+                    <button onclick="pts()">200</button>
+                    <alert id="answerC2R2"></alert>
+                </li>
+                <li>
+                    <button onclick="pts()">300</button>
+                    <alert id="answerC2R3"></alert>
+                </li>
+                <li>
+                        <button onclick="pts()">400</button>
+                        <alert id="answerC2R4"></alert>
+                </li>
+                <li>
+                        <button onclick="pts()">500</button>
+                        <alert id="answerC2R5"></alert>
+                </li>
+            </ul>
+</div>
+<div>
+        <ul>
+                <h3>CAT. 2</h3>
+                <li>
+                    <button onclick="pts()">100</button>
+                    <p id="answerC2"></p>
+                </li>
+                <li>
+                    <button>200</button>
+                </li>
+                <li>
+                    <button>300</button>
+                </li>
+                <li>
+                    <button>400</button>
+                </li>
+                <li>
+                    <button>500</button>
+                </li>
+            </ul>
 </div>
 <div>
         <ul>
