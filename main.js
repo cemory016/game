@@ -1,143 +1,5 @@
 console.log ("i'm working")
 
-
-// const gameBoardInfo = [
-//     'c1q1': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//      'c1q2': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c1q3': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//      'c1q4': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c1q5': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//     'c2q1': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//      'c2q2': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c2q3': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//      'c2q4': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c2q5': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//     'c3q1': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//      'c3q2': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c3q3': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//      'c3q4': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c3q5': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//     'c4q1': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//      'c4q2': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c4q3': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//      'c4q4': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c4q5': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//     'c5q1': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//      'c5q2': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c5q3': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-//      'c5q4': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//     },
-//     'c5q5': {
-//         question:
-//         correctAnswer: 
-//         pointValue:
-//      },
-
-// ]
-
-// function processQandA(tableId){
-//     questionInfo = gameBoardInfo[tableId];
-
-//     questionInfo.question;
-//     questionInfo.answer;
-//     questionInfo.pointValue;
-// }
-
 let playerPoints = 0
 function qANDa(A,points) {
     console.log(A);
@@ -161,7 +23,7 @@ function qANDa(A,points) {
         answer = "this";
     }
     if (A === 'c1q4'){
-        question = "“I'm as mad as hell, and I'm not going to take ____ anymore!”";
+        question = "I'm as mad as hell, and I'm not going to take ____ anymore!";
         answer = "this";
     }
     if (A === 'c1q5'){
@@ -189,10 +51,73 @@ function qANDa(A,points) {
         question = "It takes about 75,000 crocus flowers to make a pound of this spice.";
         answer = "saffron";
     }
+    //catagoty 3
+    if (A === 'c3q1'){
+        question = "Which is the only American state to begin with the letter 'p'?";
+        answer = " Pennsylvania";
+    }
+    if (A === 'c3q2'){
+        question = "Name the world's biggest island.";
+        answer = "Greenland";
+    }
+    if (A === 'c3q3'){
+        question = "Name the world's largest ocean.";
+        answer = "Pacific";
+    }
+    if (A === 'c3q4'){
+        question = "the diameter of Earth is ____ miles.";
+        answer = "8000";
+    }
+    if (A === 'c3q5'){
+        question = "Prague is in which country?";
+        answer = "Czech Republic";
+    }
+    // Catagory 4
+    if (A === 'c4q1'){
+        question = "This colour jersey is worn by the winners of each stage of the Tour De France";
+        answer = "yellow";
+    }
+    if (A === 'c4q2'){
+        question = "This chess piece can only move diagonally?";
+        answer = "bishop";
+    }
+    if (A === 'c4q3'){
+        question = "How many holes are there in a full round of golf?";
+        answer = "18";
+    }
+    if (A === 'c4q4'){
+        question = "In 2011, which country hosted a Formula 1 race for the first time?";
+        answer = "India";
+    }
+    if (A === 'c4q5'){
+        question = "the only athlete ever to play in a Super Bowl and a World Series?";
+        answer = "Deion Sanders";
+    } 
+    // catagory 5
+    if (A === 'c5q1'){
+        question = "This actor played Neo in The Matrix";
+        answer = "Keanu Reeves";
+    }
+    if (A === 'c5q2'){
+        question = "In which film did Humphrey Bogart say, `We'll always have Paris?`";
+        answer = "Casablanca";
+    }
+    if (A === 'c5q3'){
+        question = "The film noir actress who starred in I Married a Witch, The Glass Key, So Proudly We Hail! and Sullivan's Travels";
+        answer = "Veronica Lake";
+    }
+    if (A === 'c5q4'){
+        question = "Name the director of the Lord of the Rings trilogy.";
+        answer = "Peter Jackson";
+    }
+    if (A === 'c5q5'){
+        question = "Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?";
+        answer = "Jodie Foster";
+    }
+   
     userAnswer = prompt (question);
     if (userAnswer === answer) {
-        document.getElementById(A).innerHTML =
-        "correct";
+        document.getElementById(A).innerHTML=        "correct";
         //add points 
         playerPoints += points;
         playerScoreHtml.innerHTML=playerPoints;
