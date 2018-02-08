@@ -51,83 +51,83 @@ const gameBoardInfo = {
         question: "It takes about 75,000 crocuts flowers to make a pound of this spice.",
         correctAnswer: "saffron",
         pointValue: 500
-     }
+     },
      //Category 3
     'c3q1': {
-        question: "Which is the only American state to begin with the letter 'p'?"
-        correctAnswer: "Pennsylvania"
+        question: "Which is the only American state to begin with the letter `p`?",
+        correctAnswer: "Pennsylvania",
         pointValue: 100
     },
      'c3q2': {
-        question:"Name the world's biggest island"
-        correctAnswer: "Greenland"
+        question:"Name the world's biggest island",
+        correctAnswer: "Greenland",
         pointValue: 200
     },
     'c3q3': {
-        question:"Name the world's largest ocean."
-        correctAnswer: "Pacific"
+        question:"Name the world's largest ocean.",
+        correctAnswer: "Pacific",
         pointValue: 300
      },
      'c3q4': {
-        question:"rounding up, the diameter of Earth is ____ miles."
-        correctAnswer: "8000"
+        question:"rounding up, the diameter of Earth is ____ miles.",
+        correctAnswer: "8000",
         pointValue: 400
     },
     'c3q5': {
-        question:"Prague is in which country?"
-        correctAnswer: "Czech Republic"
+        question:"Prague is in which country?",
+        correctAnswer: "Czech Republic",
         pointValue: 500
      },
      //Catagory 4
     'c4q1': {
-        question:"This colour jersey is worn by the winners of each stage of the Tour De France"
-        correctAnswer: "yellow"
+        question:"This colour jersey is worn by the winners of each stage of the Tour De France",
+        correctAnswer: "yellow",
         pointValue: 100
     },
      'c4q2': {
-        question:"This chess piece can only move diagonally?"
-        correctAnswer: "bishop"
+        question:"This chess piece can only move diagonally?",
+        correctAnswer: "bishop",
         pointValue: 200
     },
     'c4q3': {
-        question:"How many holes are there in a full round of golf?"
-        correctAnswer: "18"
+        question:"How many holes are there in a full round of golf?",
+        correctAnswer: "18",
         pointValue: 300
      },
      'c4q4': {
-        question:"In 2011, which country hosted a Formula 1 race for the first time?"
-        correctAnswer: "India"
+        question:"In 2011, which country hosted a Formula 1 race for the first time?",
+        correctAnswer: "India",
         pointValue: 400
     },
     'c4q5': {
-        question:"the only athlete ever to play in a Super Bowl and a World Series?"
-        correctAnswer: "Deion Sanders"
+        question:"the only athlete ever to play in a Super Bowl and a World Series?",
+        correctAnswer: "Deion Sanders",
         pointValue: 500
      },
      //Catagory 5
     'c5q1': {
-        question:"This actor played Neo in The Matrix"
-        correctAnswer: "Keanu Reeves"
+        question:"This actor played Neo in The Matrix",
+        correctAnswer: "Keanu Reeves",
         pointValue: 100
     },
      'c5q2': {
-        question:"In which film did Humphrey Bogart say, `We'll always have Paris?`"
-        correctAnswer: "Casablanca"
+        question:"In which film did Humphrey Bogart say, `We'll always have Paris?`",
+        correctAnswer: "Casablanca",
         pointValue: 200
     },
     'c5q3': {
-        question:"The film noir actress who starred in I Married a Witch, The Glass Key, So Proudly We Hail! and Sullivan's Travels"
-        correctAnswer: "Veronica Lake"
+        question:"The film noir actress who starred in I Married a Witch, The Glass Key, So Proudly We Hail! and Sullivan's Travels",
+        correctAnswer: "Veronica Lake",
         pointValue: 300
      },
      'c5q4': {
-        question:"Name the director of the Lord of the Rings trilogy."
-        correctAnswer: "Peter Jackson"
+        question:"Name the director of the Lord of the Rings trilogy.",
+        correctAnswer: "Peter Jackson",
         pointValue: 400
     },
     'c5q5': {
-        question:"Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?"
-        correctAnswer: "Jodie Foster"
+        question:"Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?",
+        correctAnswer: "Jodie Foster",
         pointValue: 500
      },
     //  'finalQ': {
