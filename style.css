@@ -20,6 +20,14 @@ td {
     font-weight: bold;
    
 }
+div {
+    font-size: 30px;
+    margin: 60px;
+    width: 500px;
+    background-color: blue;
+    border: 10px;
+    border-color: red;
+}
 
 h2 {
     text-align: left;

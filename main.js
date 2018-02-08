@@ -114,7 +114,12 @@ function qANDa(A,points) {
         question = "Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?";
         answer = "Jodie Foster";
     }
-   
+   if (A === 'finalQ')
+        question =
+        answer =
+}
+
+
     userAnswer = prompt (question);
     if (userAnswer === answer) {
         document.getElementById(A).innerHTML=        "correct";
