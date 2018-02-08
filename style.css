@@ -12,6 +12,7 @@ button {
 
 table {
     background-color: rgb(175, 180, 181);
+    float: inherit;
 }
 
 td {
@@ -35,4 +36,11 @@ h2 {
 
 p {
     text-align: left;
+    max-width: 100px;
+    padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+}
+
+button[disabled] {
+
 }

@@ -130,11 +130,11 @@ const gameBoardInfo = {
         correctAnswer: "Jodie Foster",
         pointValue: 500
      },
-    //  'finalQ': {
-    //      question:
-    //      correctAnswer:
-    //      pointValue: 
-    //  }
+     'finalQ': {
+         question:"Did you enjoy this game?",
+         correctAnswer: "Heck Yeah"
+         pointValue: 
+     }
 
     }
 // single funtion
