@@ -33,6 +33,12 @@ div {
 h2 {
     text-align: left;
 }
+h1 {
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+}
 
 p {
     background: #e0dcae;

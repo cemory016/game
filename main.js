@@ -149,7 +149,7 @@ function processQandA(tableId){
     userAnswer = prompt (question);
     if (userAnswer === answer) {
         document.getElementById(tableId).innerHTML =
-        "correct";
+           "correct";
         //add points 
         playerPoints += points;
         playerScoreHtml.innerHTML=playerPoints;
@@ -161,6 +161,9 @@ function processQandA(tableId){
         playerPoints -= points;
         playerScoreHtml.innerHTML=playerPoints;
     };
+}
+//function onclick(tableId){
+//}
     
     //with one player, gray out box and make not clickable after question has been completed.
 }
