@@ -138,40 +138,29 @@ const gameBoardInfo = {
 
     }
 // single funtion
-let pointValue = 0
+let playerPoints = 0
 function processQandA(tableId){
     questionInfo = gameBoardInfo[tableId];
-
-    questionInfo.question;
-
-
-    questionInfo.answer;
-
-
-    questionInfo.pointValue; document.getElementById('pointValue')
-}
-
-// let playerPoints = 0
-// function qANDa(A,points) {
-//     console.log(A);
-//     var question;
-//     var answer;
-//     var playerScoreHtml = document.getElementById('player-score')
-
-    // userAnswer = prompt (question);
-    // if (userAnswer === answer) {
-    //     document.getElementById(A).innerHTML =
-    //     "correct";
-    //     //add points 
-    //     playerPoints += points;
-    //     playerScoreHtml.innerHTML=playerPoints;
+    var question = questionInfo.question;
+    var answer = questionInfo.correctAnswer;
+    var points = questionInfo.pointValue; 
+    var playerScoreHtml = document.getElementById('pointValue')
+    
+    userAnswer = prompt (question);
+    if (userAnswer === answer) {
+        document.getElementById(tableId).innerHTML =
+        "correct";
+        //add points 
+        playerPoints += points;
+        playerScoreHtml.innerHTML=playerPoints;
         
-    // } else{
-    //     document.getElementById(A).innerHTML =
-    //     "wrong sucka";
-    //     //subtract points
-    //     playerPoints -= points;
-    //     playerScoreHtml.innerHTML=playerPoints;
-    // };
-    // //with one player, gray out box and make not clickable after question has been completed.
+    } else{
+        document.getElementById(tableId).innerHTML =
+        "wrong sucka";
+        //subtract points
+        playerPoints -= points;
+        playerScoreHtml.innerHTML=playerPoints;
+    };
+    
+    //with one player, gray out box and make not clickable after question has been completed.
 }
