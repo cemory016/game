@@ -150,6 +150,7 @@ function processQandA(tableId){
     if (userAnswer === answer) {
         document.getElementById(tableId).innerHTML =
            "correct";
+        document.getElementById(tableId).disabled = true;
         //add points 
         playerPoints += points;
         playerScoreHtml.innerHTML=playerPoints;
@@ -157,13 +158,14 @@ function processQandA(tableId){
     } else{
         document.getElementById(tableId).innerHTML =
         "wrong sucka";
+        document.getElementById(tableId).disabled = true;
         //subtract points
         playerPoints -= points;
         playerScoreHtml.innerHTML=playerPoints;
     };
+
 }
 //function onclick(tableId){
 //}
     
     //with one player, gray out box and make not clickable after question has been completed.
-}
