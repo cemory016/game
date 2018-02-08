@@ -34,6 +34,7 @@ div {
     text-justify: center;
     color: red;
     font-weight: bold;
+    max-width: 400px;
 }
 
 h2 {
