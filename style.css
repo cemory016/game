@@ -26,13 +26,14 @@ td {
    
 }
 div {
-    font-size: 30px;
+    font-size: 35px;
     margin: 60px;
     background-color:blue;
     border: 10px;
     text-align: center;
-    text-justify: 
-    
+    text-justify: center;
+    color: red;
+    font-weight: bold;
 }
 
 h2 {
