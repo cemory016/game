@@ -55,17 +55,17 @@ const gameBoardInfo = {
      //Category 3
     'c3q1': {
         question: "Which is the only American state to begin with the letter `p`?",
-        correctAnswer: "Pennsylvania",
+        correctAnswer: "pennsylvania",
         pointValue: 100
     },
      'c3q2': {
         question:"Name the world's biggest island",
-        correctAnswer: "Greenland",
+        correctAnswer: "greenland",
         pointValue: 200
     },
     'c3q3': {
         question:"Name the world's largest ocean.",
-        correctAnswer: "Pacific",
+        correctAnswer: "pacific",
         pointValue: 300
      },
      'c3q4': {
@@ -75,7 +75,7 @@ const gameBoardInfo = {
     },
     'c3q5': {
         question:"Prague is in which country?",
-        correctAnswer: "Czech Republic",
+        correctAnswer: "czech republic",
         pointValue: 500
      },
      //Catagory 4
@@ -96,43 +96,43 @@ const gameBoardInfo = {
      },
      'c4q4': {
         question:"In 2011, which country hosted a Formula 1 race for the first time?",
-        correctAnswer: "India",
+        correctAnswer: "india",
         pointValue: 400
     },
     'c4q5': {
         question:"the only athlete ever to play in a Super Bowl and a World Series?",
-        correctAnswer: "Deion Sanders",
+        correctAnswer: "deion sanders",
         pointValue: 500
      },
      //Catagory 5
     'c5q1': {
         question:"This actor played Neo in The Matrix",
-        correctAnswer: "Keanu Reeves",
+        correctAnswer: "keanu reeves",
         pointValue: 100
     },
      'c5q2': {
         question:"In which film did Humphrey Bogart say, `We'll always have Paris?`",
-        correctAnswer: "Casablanca",
+        correctAnswer: "casablanca",
         pointValue: 200
     },
     'c5q3': {
         question:"The film noir actress who starred in I Married a Witch, The Glass Key, So Proudly We Hail! and Sullivan's Travels",
-        correctAnswer: "Veronica Lake",
+        correctAnswer: "veronica lake",
         pointValue: 300
      },
      'c5q4': {
         question:"Name the director of the Lord of the Rings trilogy.",
-        correctAnswer: "Peter Jackson",
+        correctAnswer: "peter jackson",
         pointValue: 400
     },
     'c5q5': {
         question:"Name the actress whose career began at the age of 3, and who went on to star in films such as Contact, Maverick and The Silence of the Lambs?",
-        correctAnswer: "Jodie Foster",
+        correctAnswer: "jodie foster",
         pointValue: 500
      },
      'finalQ': {
-         question:"Did you enjoy this game?",
-         correctAnswer: "Heck Yeah",
+         question:"Did you enjoy this game? ** hint: heck yeah **",
+         correctAnswer: "heck yeah",
          pointValue: 1000
      }
 

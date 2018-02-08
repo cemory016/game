@@ -8,13 +8,14 @@ button {
     font-size: 20px;
     font-weight: bold;
     color: white;
+    border: 0px;
 }
 button:disabled {
     background-color: rgb(123, 70, 123);
 }
 
 table {
-    background-color: rgb(175, 180, 181);
+    background-color: yellow;
     float: inherit;
 }
 
@@ -27,14 +28,16 @@ td {
 div {
     font-size: 30px;
     margin: 60px;
-    width: 500px;
-    background-color: blue;
+    background-color:blue;
     border: 10px;
-    border-color: red;
+    text-align: center;
+    text-justify: 
+    
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
+
 }
 h1 {
     font-weight: bold;
