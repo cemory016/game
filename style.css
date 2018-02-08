@@ -9,6 +9,8 @@ button {
     font-weight: bold;
     color: white;
     border: 0px;
+    align-content: center;
+    text-align: center;
 }
 button:disabled {
     background-color: rgb(123, 70, 123);
@@ -33,8 +35,7 @@ div {
     text-align: center;
     text-justify: center;
     color: red;
-    font-weight: bold;
-    max-width: 400px;
+    font-weight: bold;    
 }
 
 h2 {
