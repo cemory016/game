@@ -132,8 +132,8 @@ const gameBoardInfo = {
      },
      'finalQ': {
          question:"Did you enjoy this game?",
-         correctAnswer: "Heck Yeah"
-         pointValue: 
+         correctAnswer: "Heck Yeah",
+         pointValue: 1000
      }
 
     }

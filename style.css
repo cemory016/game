@@ -35,12 +35,17 @@ h2 {
 }
 
 p {
-    text-align: left;
-    max-width: 100px;
-    padding: 0px 10px 0px 10px;
-    flex-wrap: wrap;
-}
-
-button[disabled] {
-
+    background: #e0dcae;
+    color: rgb(5, 38, 169);
+    border-radius: 1em;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
 }
