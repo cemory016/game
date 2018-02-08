@@ -151,6 +151,7 @@ function processQandA(tableId){
         document.getElementById(tableId).innerHTML =
            "correct";
         document.getElementById(tableId).disabled = true;
+        property.style.backgroundColor = "#FFFFFF"
         //add points 
         playerPoints += points;
         playerScoreHtml.innerHTML=playerPoints;
